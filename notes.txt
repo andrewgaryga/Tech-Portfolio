@@ -1,0 +1,31 @@
+ Плагины:
+live server
+prettier + указать в настройках формат он сейв
+
+Перед использованием npm содаем json файл как манифест нашего проекта
+для этого открываем коммандную строку ctrl + `
+и пишем npm init, далее все по инструкции.
+
+Установка scss - npm i node-sass
+
+// Скрипты
+В package.json есть такой раздел
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "helloWorld": "echo \"Hello World\""
+  },
+
+я туда дописал helloWorld и теперь его можно запустить используя команду:
+npm run helloWorld
+
+добавляем сасс модуль:
+"scripts": {
+  "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+}
+
+-w: watch (watch scss folder)
+-o: output (output compiled sass to dist/css/)
+--recursive: в данном случае нужно для предотвращения конфликта с лайв сервером
+
+
+/dist means "distribution", the compiled code/library.
