@@ -60,3 +60,13 @@ burger button collection to codepen
 &-branding
 
 @for $x from 1 through 4 and #{$x}
+
+@content;
+
+@function;
+
+grid, grid-template areas
+
+@extend
+
+justify-content: space-evently;
