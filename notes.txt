@@ -29,3 +29,30 @@ npm run helloWorld
 
 
 /dist means "distribution", the compiled code/library.
+
+работа с гит:
+я при установке гит по ошибке поставил флаг "следить за всем" и это зафакапило
+мою установку, тк вижуал стидио выдавал мне инфу о любых изменениях в системе
+
+я создал файл .git_ignore и добавил туда  node_modules, что бы гит не следил за этим каталогом
+
+после танцев с бубнами и плагином shell luncher, я могу выбрать шелл по хоткею 
+ctrl alt ` 
+
+выбрал гит баш, сначала инициализировал git init
+
+потом добавил все файлы "git add ." (ну кроме нод модулес)
+и сделал первый коммит git commit -m 'initial workflow setup'
+
+пока ничего не пушил на гитхаб, не стоит забывать, что гит и гитхаб это разные движухи
+и откуда вообще взялся гитхаб
+
+emmet не хотел открывать большие цепочки файлов для этого пришлось добавить галочку в settings>extensions>emmet trigger expansion on tab
+ 
+написать про if,
+  про  lighten, rgba, partials
+
+git add .
+git commit -m 'Index markup & main sass'
+
+burger button collection to codepen
